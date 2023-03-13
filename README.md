@@ -7,7 +7,7 @@ https://masons.corneroftheinter.net
 Prerequisite: `npm i -g pug-cli`
 
 - `pug views/index.pug`
-- `mv views/index.html doc/`
-- `cp public/images/* doc/images/`
-- `cp public/stylesheets/* doc/stylesheets/`
+- `mv views/index.html docs/`
+- `cp public/images/* docs/images/`
+- `cp public/stylesheets/* docs/stylesheets/`
 - Push to github
