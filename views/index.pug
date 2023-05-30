@@ -13,57 +13,33 @@ mixin person(name, anchor)
 block content
   #banner
     .bannercontent
-      h1#title The Truth As Told By Mason Buttle
+      h1#title The Lord of Opium
       br
       br
-      h2#title Leslie Connor
+      h2#title Nancy Farmer
   #content
     h1 Synopsis
     p.
-      #[a(href='#c-mb') Mason Buttle] is a seventh grader with learning disabilities,
-      making it difficult for him to read or write. A little over a year ago, his best friend,
-      Benny Kilmartin, was found dead at the foot of the tree on which their treehouse was built.
-      The police investigation, led by #[a(href='#c-lb') Lieutenant Baird], fails to find the reason
-      why the treehouse ladder rung broke. Baird doesn't believe that Mason is telling the entire truth.
-    br
-    p.
-      Mason meets another kid named #[a(href='#c-cc') Calvin Chumsky]. They find out that they
-      are neighbors, and immediately become best friends. They discover an unused underground cellar
-      in the orchard, and decide to use it as shelter from #[a(href='#c-md') a few bullies] who chase them after school.
-      One day, Calvin vanishes while being pursued by the bullies. Mason checks everywhere, but cannot find his friend.
-      The police are also suspicious about Calvin's disappearance. Is Mason a dangerous murderer, or is it just a coincidence?
+      words
 
     br
     
     h1 Meet The Characters
     table.col2
       tr
-        +person('Mason Buttle', 'c-mb')
+        +person('Mateo "Matt" Alcran', 'c-matt')
           p.
-            Mason is only 12 years old and has learning disabilities, but he is physically large and strong.
-            He often feels lonely because of his difficulties at school. His family owns many acres of
-            apple orchards, but the trees are not taken care of and ripe apples are left to rot. Part of the land
-            was sold to developers to pay the bills. Mason's parents have already passed away, and his uncle
-            spends all day at a diner. Although Mason gets bullied by Matt and Lance, he also feels sorry for them.
-            His empathy for others is one of the core themes in the book.
-        +person('Calvin Chumsky', 'c-cc')
+            clone
+        +person('El Patron', 'c-druglord')
           p.
-            Calvin's family moves into one of the newly built houses. At school, Calvin meets Mason and
-            they become good friends. Unlike Mason, Calvin is physically smaller and does not have learning
-            disabilities. Calvin helps Mason investigate Benny's death, suggesting that they make a timeline
-            to organize things.
+            druglord
       tr
-        +person('Matt & Lance', 'c-md')
+        +person('Maria', 'c-maria')
           p.
-            Matt and Lance are two brothers who bully others that they consider to be weak. Mason is often
-            targeted because of his learning disability. Calvin is targeted because he is physically small,
-            and is friends with Mason. Although Matt and Lance bully others for fun, they do not mean to
-            seriously harm anyone.
-        +person('Lieutenant Baird', 'c-lb')
+            person
+        +person('Esperanza Mendoze', 'c-diplomat')
           p.
-            Lieutenant Baird is a police officer in charge of investigating Benny's death. He questions Mason's
-            innocense and thinks that there is more to the story than what Mason is willing to say. He makes regular
-            visits to Mason's home to try and get more information about the case.
+            maria's mother
     
     br
 
@@ -71,8 +47,8 @@ block content
     table.col2(class='align-top')
       tr
         td
-          p You can get this book from #[a(href='https://www.amazon.com/Truth-Told-Mason-Buttle/dp/0062491431') Amazon] for $7.99 (paperback) or $9.99 (hardcover).
-          p #[span.title The Truth As Told By Mason Buttle] won the #[a(href='https://www.ala.org/awardsgrants/schneider-family-book-award') Schneider Family Book Award] in 2019 and was a finalist for the #[a(href='https://www.nationalbook.org/awards-prizes/national-book-awards-2018/') 2018 National Book Award for Young People's Literature].
+          p You can get this book from #[a(href='https://www.amazon.com/Lord-Opium-Nancy-Farmer/dp/1442482559') Amazon] for $24.65 (paperback) or $12.41 (hardcover). Alternatively, it may be offered at your library, in either book form or ebook form.
+          p #[span.title The Lord of Opium] was selected as part of the #[a(href='https://www.lapl.org/books-emedia/lapl-reads/book-lists/best-2013-teen-books') Best of 2013: Teen book list] by the Los Angeles Public Library. It's prequel, #[span.title The House of the Scorpion], has won various other awards, such as the #[a(href='https://www.nationalbook.org/awards-prizes/national-book-awards-2002') National Book Award for Young People's Literature].
         td
           img.getbook(src='/images/cover.jpg')
           span.idk (idk what else to put here)

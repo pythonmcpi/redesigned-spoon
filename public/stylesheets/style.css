@@ -1,9 +1,9 @@
 :root {
   /* Palette */
-  --primary: #e4b269;
-  --secondary: #c34d28;
-  --tertiary: #6e4a33;
-  --background: #372221;
+  --primary: #82adb3;
+  --secondary: #97cddf;
+  --tertiary: #1d646f;
+  --background: #184953;
 }
 
 * {
